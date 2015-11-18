@@ -58,7 +58,7 @@
         <!--change the text-->
         <TextView
             android:id="@+id/price"
-            android:text="$179.99"
+            android:text="Price: $179.99"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
