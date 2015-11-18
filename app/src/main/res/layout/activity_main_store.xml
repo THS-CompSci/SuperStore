@@ -10,8 +10,9 @@
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:id="@+id/imageView"
-        android:background="@drawable/logo_store"
-        android:layout_alignParentTop="true" />
+        android:background="@drawable/drawing"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ListView
         android:layout_width="wrap_content"
