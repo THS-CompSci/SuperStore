@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.twistedx.superstore" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Store"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AppleJuice"
+            android:label="Apple Juice">
+        </activity>
+        <activity
+            android:name=".Apples"
+            android:label="Apples">
+        </activity>
+        <activity
+            android:name=".AppleWatch"
+            android:label="AppleWatch">
+        </activity>
+
+
+        <activity
+            android:name=".Banana"
+            android:label="Banana">
+        </activity>
+
+
+        <activity
+            android:name=".Chips"
+            android:label="Chips">
+        </activity>
+
+
+        <activity
+            android:name=".CocaCola"
+            android:label="CocaCola">
+        </activity>
+
+
+        <activity
+            android:name=".CompCase"
+            android:label="CompCase">
+        </activity>
+
+
+        <activity
+            android:name=".CPU"
+            android:label="CPU">
+        </activity>
+
+
+        <activity
+            android:name=".FuryX"
+            android:label="FuryX">
+        </activity>
+
+
+        <activity
+            android:name=".GalaxyS6Edge"
+            android:label="GalaxyS6Edge">
+        </activity>
+
+
+        <activity
+            android:name=".GearS2"
+            android:label="GearS2">
+        </activity>
+
+
+        <activity
+            android:name=".HTCM9"
+            android:label="HTCM9">
+        </activity>
+
+
+        <activity
+            android:name=".iPadAir2"
+            android:label="iPadAir2">
+        </activity>
+
+
+        <activity
+            android:name=".iPadmini4"
+            android:label="iPadmini4">
+        </activity>
+
+
+        <activity
+            android:name=".iPhone6s"
+            android:label="iPhone6s">
+        </activity>
+
+
+        <activity
+            android:name=".LCK"
+            android:label="LCK">
+        </activity>
+
+
+        <activity
+            android:name=".MotherBoard"
+            android:label="MotherBoard">
+        </activity>
+
+
+        <activity
+            android:name=".Orange"
+            android:label="Orange">
+        </activity>
+
+
+        <activity
+            android:name=".PCIeSSD"
+            android:label="PCIeSSD">
+        </activity>
+
+
+        <activity
+            android:name=".Phone"
+            android:label="Phone">
+        </activity>
+
+
+        <activity
+            android:name=".Potato"
+            android:label="Potato">
+        </activity>
+
+
+        <activity
+            android:name=".Power"
+            android:label="Power">
+        </activity>
+
+
+        <activity
+            android:name=".RAM"
+            android:label="RAM">
+        </activity>
+
+
+        <activity
+            android:name=".Spaghetti"
+            android:label="Spaghetti">
+        </activity>
+
+
+        <activity
+            android:name=".Sprite"
+            android:label="Sprite">
+        </activity>
+
+
+        <activity
+            android:name=".SSD"
+            android:label="SSD">
+        </activity>
+
+
+        <activity
+            android:name=".SurfacePro4"
+            android:label="SurfacePro4">
+        </activity>
+
+
+        <activity
+            android:name=".Titan"
+            android:label="Titan">
+        </activity>
+
+
+        <activity
+            android:name=".Watch"
+            android:label="Watch">
+        </activity>
+
+
+        <activity
+            android:name=".Water"
+            android:label="Water">
+        </activity>
+    </application>
+
+</manifest>
