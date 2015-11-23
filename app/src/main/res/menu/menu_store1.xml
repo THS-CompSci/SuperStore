@@ -25,7 +25,7 @@
     <item
         android:id="@+id/action_cart"
         android:title="Cart"
-        android:icon="@drawable/drawing"
+        android:icon="@drawable/cart"
         android:orderInCategory="1"
         android:showAsAction="always" />
 
