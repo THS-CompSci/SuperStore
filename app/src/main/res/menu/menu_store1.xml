@@ -3,12 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.twistedx.superstore.Store1"
     >
-    <item
-        android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:color="#00000000"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+
     <item
         android:id="@+id/credit"
         android:title="Money"
@@ -16,11 +11,7 @@
         android:orderInCategory="2"
         android:showAsAction="always"/>
 
-    <item android:id="@+id/action_share"
-        android:title="@string/action_share"
-        android:orderInCategory="3"
-        android:showAsAction="always"
-        android:actionProviderClass="android.widget.ShareActionProvider" />
+
 
     <item
         android:id="@+id/action_cart"
