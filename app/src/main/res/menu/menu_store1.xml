@@ -1,5 +1,30 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" tools:context="com.twistedx.superstore.Store1">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" android:showAsAction="never" />
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.twistedx.superstore.Store1"
+    >
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:color="#00000000"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/credit"
+        android:title="Money"
+        android:icon="@drawable/card"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+
+
+
+
+
+
 </menu>

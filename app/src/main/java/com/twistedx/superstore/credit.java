@@ -1,17 +1,17 @@
 package com.twistedx.superstore;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.os.Bundle;
+import android.app.Activity;
+import android.app.ActionBar;
 
-public class Banana extends Activity {
+public class credit extends Activity{
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.banana);
+        setContentView(R.layout.credit);
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
     }
-
 }
