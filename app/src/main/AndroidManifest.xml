@@ -8,9 +8,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
 
+
         <activity
             android:name=".Store"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -19,177 +21,302 @@
 
         <activity
             android:name=".AppleJuice"
-            android:label="Apple Juice">
+            android:label="Apple Juice"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
         <activity
             android:name=".Apples"
-            android:label="Apples">
+            android:label="Apples"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
         <activity
             android:name=".AppleWatch"
-            android:label="AppleWatch">
+            android:label="AppleWatch"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Banana"
-            android:label="Banana">
+            android:label="Banana"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Chips"
-            android:label="Chips">
+            android:label="Chips"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".CocaCola"
-            android:label="CocaCola">
+            android:label="CocaCola"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".CompCase"
-            android:label="CompCase">
+            android:label="CompCase"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".CPU"
-            android:label="CPU">
+            android:label="CPU"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".FuryX"
-            android:label="FuryX">
+            android:label="FuryX"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".GalaxyS6Edge"
-            android:label="GalaxyS6Edge">
+            android:label="GalaxyS6Edge"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".GearS2"
-            android:label="GearS2">
+            android:label="GearS2"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".HTCM9"
-            android:label="HTCM9">
+            android:label="HTCM9"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".iPadAir2"
-            android:label="iPadAir2">
+            android:label="iPadAir2"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".iPadmini4"
-            android:label="iPadmini4">
+            android:label="iPadmini4"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
+
 
 
         <activity
             android:name=".iPhone6s"
-            android:label="iPhone6s">
+            android:label="iPhone6s"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".LCK"
-            android:label="LCK">
+            android:label="LCK"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".MotherBoard"
-            android:label="MotherBoard">
+            android:label="MotherBoard"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Orange"
-            android:label="Orange">
+            android:label="Orange"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".PCIeSSD"
-            android:label="PCIeSSD">
+            android:label="PCIeSSD"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Phone"
-            android:label="Phone">
+            android:label="Phone"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Potato"
-            android:label="Potato">
+            android:label="Potato"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Power"
-            android:label="Power">
+            android:label="Power"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".RAM"
-            android:label="RAM">
+            android:label="RAM"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Spaghetti"
-            android:label="Spaghetti">
+            android:label="Spaghetti"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Sprite"
-            android:label="Sprite">
+            android:label="Sprite"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".SSD"
-            android:label="SSD">
+            android:label="SSD"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".SurfacePro4"
-            android:label="SurfacePro4">
+            android:label="SurfacePro4"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Titan"
-            android:label="Titan">
+            android:label="Titan"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Watch"
-            android:label="Watch">
+            android:label="Watch"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
 
 
         <activity
             android:name=".Water"
             android:label="Water">
+        </activity>
+        <activity
+            android:name=".credit"
+            android:label="credit"
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
         </activity>
     </application>
 

@@ -9,6 +9,10 @@
         <item name="android:colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
         <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:actionBarPopupTheme">@color/windowBackground</item>
+        <item name="android:dropDownListViewStyle">@color/windowBackground</item>
+
+
 
     </style>
 
