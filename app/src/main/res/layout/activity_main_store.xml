@@ -19,8 +19,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/listView"
         android:layout_below="@id/imageView"
-
-
         style="@style/AppTheme"
         android:fastScrollEnabled="true"
         android:fastScrollAlwaysVisible="true"

@@ -318,6 +318,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Store" />
         </activity>
+        <activity
+            android:name=".Cart"
+            android:label="@string/title_activity_cart" >
+            android:parentActivityName=".Store">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Store" />
+        </activity>
     </application>
 
 </manifest>
